@@ -1,12 +1,21 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "Jaseel Hassan Koolath",
+	"description": "A project that does something awesome",
+	"keywords": [
+		"awesome",
+		"something",
+		"freecodecamp"
+	],
+	"license": "MIT",
+	"version": "1.0.0",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+		"start": "node server.js",
+		"dev": "nodemon server.js"
 	},
 	"repository": {
 		"type": "git",
